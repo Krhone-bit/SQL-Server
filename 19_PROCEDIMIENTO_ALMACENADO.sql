@@ -65,6 +65,10 @@ END;
 GO
 
 
-EXEC InsertarVentasConFechaAleatoria '2024-07-01', '2024-07-30', 30000;
+EXEC InsertarVentasConFechaAleatoria '2024-08-01', '2024-08-31', 50000;
 
 --EXEC InsertarVentasConFechaAleatoria '2024-07-01', '2024-07-30';
+
+
+SELECT TOP 1 Descripcion FROM Producto ORDER BY Precio DESC;
+

@@ -100,6 +100,12 @@
           <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>21_PROCEDIMIENTO_ALMACENADO_UPDATE_CLIENTES.sql</FullPath>
         </FileNode>
+        <FileNode Name="22_CONSULTA_OLAP_JOINS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>22_CONSULTA_OLAP_JOINS.sql</FullPath>
+        </FileNode>
         <FileNode Name="3_INSERCION_DATOS_PRODUCTO.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:sa</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
