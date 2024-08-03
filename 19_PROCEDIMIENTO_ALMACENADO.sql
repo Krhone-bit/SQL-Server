@@ -65,10 +65,11 @@ END;
 GO
 
 
-EXEC InsertarVentasConFechaAleatoria '2024-08-01', '2024-08-31', 50000;
+EXEC InsertarVentasConFechaAleatoria '2024-05-01', '2024-05-30', 15000;
 
 --EXEC InsertarVentasConFechaAleatoria '2024-07-01', '2024-07-30';
 
 
 SELECT TOP 1 Descripcion FROM Producto ORDER BY Precio DESC;
 
+SELECT COUNT(1) AS TOTAL_REGISTROS_VENTAS FROM Venta;

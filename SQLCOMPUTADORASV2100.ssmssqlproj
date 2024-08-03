@@ -106,6 +106,18 @@
           <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>22_CONSULTA_OLAP_JOINS.sql</FullPath>
         </FileNode>
+        <FileNode Name="23_BACKUP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>23_BACKUP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="24_CANTIDAD_DE_REGISTROS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>24_CANTIDAD_DE_REGISTROS.sql</FullPath>
+        </FileNode>
         <FileNode Name="3_INSERCION_DATOS_PRODUCTO.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:sa</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
