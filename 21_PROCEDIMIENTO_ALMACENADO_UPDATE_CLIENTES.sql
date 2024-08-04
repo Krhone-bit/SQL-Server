@@ -1,4 +1,4 @@
-CREATE PROCEDURE ActualizarTelefonosAleatorios
+CREATE PROCEDURE SPActualizarTelefonosAleatorios
 AS
 BEGIN
     DECLARE @ClienteID INT;
@@ -37,6 +37,6 @@ BEGIN
 END;
 GO
 
-EXEC ActualizarTelefonosAleatorios;
+EXEC SPActualizarTelefonosAleatorios;
 
 SELECT count(1) FROM Venta;

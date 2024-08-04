@@ -54,7 +54,7 @@ BEGIN
         Total DECIMAL(10, 2),
         MetodoPagoID INT,
         FOREIGN KEY (ClienteID) REFERENCES Cliente(ClienteID),
-        FOREIGN KEY (MetodoPagoID) REFERENCES MetodoPago(MetodoPagoID)
+        FOREIGN KEY (MetodoPagoID) REFERENCES MetodoPago(MetodoPagoID),
     );
 END;
 GO
@@ -64,12 +64,15 @@ IF OBJECT_ID('DetalleVenta', 'U') IS NULL
 BEGIN
     CREATE TABLE DetalleVenta (
         DetalleID INT IDENTITY(1,1) PRIMARY KEY,
-        VentaID INT,
+		VentaID INT,
         ProductoID INT,
         Cantidad INT,
         Precio DECIMAL(10, 2),
-        FOREIGN KEY (VentaID) REFERENCES Venta(VentaID),
-        FOREIGN KEY (ProductoID) REFERENCES Producto(ProductoID)
+        FOREIGN KEY (ProductoID) REFERENCES Producto(ProductoID),
+		FOREIGN KEY (VentaID) REFERENCES Venta(VentaID)
     );
 END;
 GO
+
+TRUNCATE TABLE DetalleVenta;
+DELETE FROM Venta;

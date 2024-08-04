@@ -1,4 +1,4 @@
--- Cantidad De Clientes Por Fecha
+-- Cantidad De Clientes Por Mes
 SELECT FORMAT(V.FechaVenta, 'MMMM') FechaVenta, C.Nombre, COUNT(*) CantidadClientes FROM 
 Venta V
 JOIN Cliente C ON V.ClienteID = C.ClienteID

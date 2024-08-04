@@ -28,6 +28,12 @@
           <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>1_CREACION_TABLAS.sql</FullPath>
         </FileNode>
+        <FileNode Name="1_MODIFICACION_TABLAS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>1_MODIFICACION_TABLAS.sql</FullPath>
+        </FileNode>
         <FileNode Name="10_PRODUCTOS_MAS_VENDIDOS.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:sa</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
@@ -118,6 +124,36 @@
           <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>24_CANTIDAD_DE_REGISTROS.sql</FullPath>
         </FileNode>
+        <FileNode Name="24_HAVING_COUNT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>24_HAVING_COUNT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="25_SP_ACTUALIZAR_PRODUCTO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>25_SP_ACTUALIZAR_PRODUCTO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="26_SP_ELIMINAR_PRODUCTO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>26_SP_ELIMINAR_PRODUCTO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="27_SP_LEER_PRODUCTO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>27_SP_LEER_PRODUCTO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="28_SP_CREAR_PRODUCTO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>28_SP_CREAR_PRODUCTO.sql</FullPath>
+        </FileNode>
         <FileNode Name="3_INSERCION_DATOS_PRODUCTO.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:sa</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
@@ -159,12 +195,6 @@
           <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
           <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>9_PRODUCTO_MENOS_VENDIDO.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQLQuery11.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:sa</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
-          <AssociatedConnUserName>sa</AssociatedConnUserName>
-          <FullPath>SQLQuery11.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
