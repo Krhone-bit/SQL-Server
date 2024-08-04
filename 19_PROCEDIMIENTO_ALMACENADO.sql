@@ -95,6 +95,8 @@ DBCC CHECKIDENT ('Venta', RESEED, 0);
 DBCC CHECKIDENT ('DetalleVenta', RESEED, 0);
 
 SELECT * FROM Venta;
+SELECT * FROM Cliente;
+SELECT * FROM Producto;
 SELECT * FROM DetalleVenta;
 
 DELETE FROM DetalleVenta;

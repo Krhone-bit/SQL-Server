@@ -8,13 +8,13 @@ BEGIN
         IF @ProductoID IS NULL
         BEGIN
             -- Seleccionar todos los productos si no se proporciona ProductoID
-            SELECT ProductoID, Nombre, Precio, Descripcion
+            SELECT ProductoID, Nombre, Precio, Descripcion, FechaCreacion, FechaActualizacion
             FROM Producto;
         END
         ELSE
         BEGIN
             -- Seleccionar un producto especifico si se proporciona ProductoID
-            SELECT ProductoID, Nombre, Precio, Descripcion
+            SELECT ProductoID, Nombre, Precio, Descripcion, FechaCreacion, FechaActualizacion
             FROM Producto
             WHERE ProductoID = @ProductoID;
         END
@@ -29,6 +29,6 @@ END;
 GO
 
 
-EXEC LeerProducto;
+EXEC SPLeerProducto;
 
-EXEC LeerProducto @ProductoID = 51;
+EXEC SPLeerProducto @ProductoID = 51;
